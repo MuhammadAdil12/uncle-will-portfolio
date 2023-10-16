@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More about me</title>
+     <!--the link the css-->
+     <link rel="stylesheet" href="about-me.css">
+     <link rel="stylesheet" href="styles.css">
+     <!--the link for font awesome-->
+     <script src="https://kit.fontawesome.com/7005b8e655.js" crossorigin="anonymous"></script>
+     <!-- Bootstrap CDN link for CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+     <!-- The nav bar -->
+
+     <nav class="navbar navbar-expand-lg bg-light pb-0">
+        <a class="navbar-brand ms-2 fs-2 vw-8 ms-4" href="#" id="sparks"><strong>Sparks</strong></a>
+
+
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+<!-- offcanvas nav bar -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header d-flex justify-content-end m-3 d-lg-none">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0  d-lg-none">
+                <div id="text-inside-navbar">
+                    <ul class="navbar-nav mb-2 mb-lg-0 fs-5 ms-auto text-dark me-4">
+                        <li class="nav-item-2">
+                        <a class="nav-link active" id="nav-button" aria-current="page" href="./index.html" style="--i:1;">Home</a>
+                        </li>
+                        <li class="nav-item-2">
+                        <a class="nav-link" href="#heading-of-about-me" id="nav-button" style="--i:2;">About me</a>
+                        </li>
+                        <li class="nav-item-2">
+                            <MWork class="nav-link" href="#my-work-section" id="nav-button" style="--i:3;">Work</a>
+                        </li>
+                        <li class="nav-item-2">
+                            <a class="nav-link" href="#contact-div" id="nav-button" style="--i:4;">contact</a>
+                        </li>
+                  </ul>
+                </div>
+               
+            </div>
+            </div>
+
+<!-- oncanvas nav bar -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+            <ul class="navbar-nav mb-2 mb-lg-0 fs-5 ms-auto text-dark me-4">
+                    <li class="nav-item">
+                    <a class="nav-link active" id="nav-button" aria-current="page" href="./index.html" style="--i:1;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link"  href="#heading-of-about-me" id="nav-button" style="--i:2;">About me</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#my-work-section" id="nav-button" style="--i:3;">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-div" id="nav-button" style="--i:4;">contact</a>
+                    </li>
+              </ul>
+              
+        </div>
+      </nav>
+      <section class="more-about-section">
+        <div class="heading-about-me">
+            <h1 id="about-me-text">About Me</h1>
+        </div>
+        <div class="paragraph-text" id="about-text-div"> 
+            <div class="about-content-div">
+                <p>William Sparks works for Winrock International as Chief of Party for the USDA-funded Regional Agriculture Innovation Network (#thaiRAIN) which is based in Thailand. Prior to this project, he managed the USAID-funded Asia Innovative Farmer Activity which facilitated expansion of innovations throughout Asia, raising over $4M in investments and benefiting over 1 million farmers. He was awarded the Humentum Operational Excellence award for developing numerous innovations, including Sell More For More - a program linking farmer organizations to markets – which was named by IFAD and Humentum as a best practice in international development while being adopted by the World Food Programme as a standard methodology. He co-founded the Agribusiness Market Ecosystem Alliance and co-created the AchieVe performance management system for which he received the Dr. JP London award for Promoting Ethical Behavior. He enjoys collaborating with his wife, Jennifer, who serves as Co-President of the American Women's Club of Thailand, to improve education for girls in rural Thai villages. He is the author of two business books and, in his free time, enjoys visiting Thai temples and running marathons.</p>
+                <a href="index.html">
+                    <button class="read-more-button">
+                        <span class="button-content">Back To Home Page</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- Bootstrap CDN link for JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!--javascript-link-->
+<script src="./index.js"></script>
+</body>
+</html>
+
